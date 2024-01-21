@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using violet.cheetah.Domain.Catalog;
+using Violet.Cheetah.Domain.Catalog;
 
 namespace violet.cheetah.Api.Controllers
 {
