@@ -1,4 +1,3 @@
-using System;
 using Violet.Cheetah.Domain.Catalog;
 
 namespace Violet.Cheetah.Domain.Catalog
