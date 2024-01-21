@@ -1,0 +1,6 @@
+@violet.cheetah.Api_HostAddress = http://localhost:5134
+
+GET {{violet.cheetah.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
