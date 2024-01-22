@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "violet.cheetah.Domain", "vi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "violet.cheetah.Api", "violet.cheetah.Api\violet.cheetah.Api.csproj", "{9C416201-63DC-4334-BD4E-EF839B78B373}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "violet.cheetah.Data", "violet.cheetah.Data\violet.cheetah.Data.csproj", "{55EAD111-3133-40A4-A6EF-66C1B7D3EFF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{9C416201-63DC-4334-BD4E-EF839B78B373}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C416201-63DC-4334-BD4E-EF839B78B373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C416201-63DC-4334-BD4E-EF839B78B373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55EAD111-3133-40A4-A6EF-66C1B7D3EFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EAD111-3133-40A4-A6EF-66C1B7D3EFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EAD111-3133-40A4-A6EF-66C1B7D3EFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EAD111-3133-40A4-A6EF-66C1B7D3EFF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
