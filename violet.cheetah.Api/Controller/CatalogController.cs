@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Violet.Cheetah.Domain.Catalog;
-using violet.cheetah.Data
+using violet.cheetah.Data;
 
 namespace Violet.Cheetah.Api.Controllers
 {
@@ -17,7 +17,8 @@ namespace Violet.Cheetah.Api.Controllers
         public IActionResult GetItems()
         {
 
-            return Ok(_db.Items);
+            # return Ok(_db.Items);
+            return Ok("hello");
         }
 
         [HttpGet("{id:int}")]
