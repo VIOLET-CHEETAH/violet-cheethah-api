@@ -12,6 +12,18 @@ builder.Services.AddDbContext<StoreContext>(options =>
     options.UseSqlite("Data Source=../Registrar.sqlite", b => b.MigrationsAssembly("violet.cheetah.Api"))
 );
 
+
+builder.Services.AddCors(options=>
+{
+    options.AddDefaultPolicy(builder=>
+    {
+        builder.WithOrigins("https://localhost:3000")
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+});
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
