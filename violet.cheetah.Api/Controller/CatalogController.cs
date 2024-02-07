@@ -17,8 +17,8 @@ namespace Violet.Cheetah.Api.Controllers
         public IActionResult GetItems()
         {
 
-            # return Ok(_db.Items);
-            return Ok("hello");
+         return Ok(_db.Items);
+        
         }
 
         [HttpGet("{id:int}")]

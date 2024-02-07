@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "violet.cheetah.Api", "viole
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "violet.cheetah.Data", "violet.cheetah.Data\violet.cheetah.Data.csproj", "{55EAD111-3133-40A4-A6EF-66C1B7D3EFF4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{96271F59-278D-4EC6-ADD1-124D1AB6B24B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "violet.cheetah.api.Domain.Tests", "tests\violet.cheetah.api.Domain.Tests\violet.cheetah.api.Domain.Tests.csproj", "{2A79F7DE-1EDE-49B0-9D37-5F7DE744AD7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{55EAD111-3133-40A4-A6EF-66C1B7D3EFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55EAD111-3133-40A4-A6EF-66C1B7D3EFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55EAD111-3133-40A4-A6EF-66C1B7D3EFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A79F7DE-1EDE-49B0-9D37-5F7DE744AD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A79F7DE-1EDE-49B0-9D37-5F7DE744AD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A79F7DE-1EDE-49B0-9D37-5F7DE744AD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A79F7DE-1EDE-49B0-9D37-5F7DE744AD7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A79F7DE-1EDE-49B0-9D37-5F7DE744AD7D} = {96271F59-278D-4EC6-ADD1-124D1AB6B24B}
 	EndGlobalSection
 EndGlobal
